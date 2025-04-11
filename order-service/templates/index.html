@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Orders</title>
+</head>
+<body>
+  <h1>All Orders</h1>
+  <ul>
+    {{range .Orders}}
+      <li>Order ID: {{.ID}}, Status: {{.Status}}</li>
+    {{else}}
+      <li>No orders available.</li>
+    {{end}}
+  </ul>
+</body>
+</html>
