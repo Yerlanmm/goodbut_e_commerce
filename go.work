@@ -1,0 +1,8 @@
+go 1.23.7
+
+use (
+	./api-gateway
+	./inventory-service
+	./order-service
+	./user-service
+)
